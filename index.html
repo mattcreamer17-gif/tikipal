@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Tikipal &times; Eduba</title>
+<meta name="description" content="Saw you have about a dozen venues live in Bogota, including Salvador Rooftop and Plaza MX. Also noticed your homepage was 500-ing this week while the venue pages stayed up." />
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="logo.svg" />
+</head>
+<body>
+
+<!-- Top strip: language toggle + booth note -->
+<div class="strip" role="complementary">
+  <div class="strip-inner">
+    <div class="strip-left">
+      <span class="strip-dot" aria-hidden="true"></span>
+      <span class="strip-text">
+        <span class="only-es">Preparado para Sebastian. eMerge Americas, stand SS54.</span>
+        <span class="only-en">Prepared for Sebastian. eMerge Americas, booth SS54.</span>
+      </span>
+    </div>
+    <nav class="lang-toggle" aria-label="Idioma / Language">
+      <a href="#" data-lang="es" class="is-active" aria-current="true">ES</a>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <a href="#" data-lang="en">EN</a>
+    </nav>
+  </div>
+</div>
+
+<!-- Header: copper bar, white wordmark, the Tikipal signature lockup -->
+<header class="site-header">
+  <div class="site-header-inner">
+    <img src="logo.svg" alt="Tikipal" class="logo" />
+    <div class="co-mark" aria-hidden="true">
+      <span class="x">&times;</span><span class="eduba">Eduba</span>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<main>
+<section class="hero" aria-labelledby="headline">
+  <div class="hero-inner">
+    <div class="eyebrow">
+      <span class="only-es">Una lectura para Tikipal</span>
+      <span class="only-en">A read for Tikipal</span>
+    </div>
+    <h1 id="headline" class="headline only-es">Donde la IA encaja en Tikipal, y donde no.</h1>
+    <h1 class="headline only-en">Where AI fits at Tikipal, and where it doesn&rsquo;t.</h1>
+    <p class="sub">
+      <span class="only-es">Alrededor de una docena de bares en Bogota. Marca clara. Asobares en el footer. Una lectura honesta de que capa del stack pide IA, que capa pide Postgres, y que capa pide a nadie.</span>
+      <span class="only-en">About a dozen bars live in Bogota. Clear brand. Asobares in the footer. An honest read on which layer of the stack wants AI, which layer wants Postgres, and which layer wants neither.</span>
+    </p>
+    <div class="hero-tags" aria-hidden="true">
+      <span class="tag">Salvador Rooftop</span>
+      <span class="tag">Plaza MX</span>
+      <span class="tag">El Candelario</span>
+      <span class="tag">Radio Despecho</span>
+    </div>
+  </div>
+</section>
+
+<!-- Pitch body -->
+<section class="pitch" aria-labelledby="pitch-title">
+  <div class="pitch-inner">
+
+    <h2 id="pitch-title" class="section-title">
+      <span class="only-es">La hipotesis</span>
+      <span class="only-en">The hypothesis</span>
+    </h2>
+
+    <div class="prose">
+      <p class="only-es">
+        Tikipal tiene alrededor de una docena de bares en Bogota, desde Salvador Rooftop hasta Plaza MX y El Candelario. La marca es clara, el sello de Asobares esta en el footer, y las paginas de cada local las armaste con cuidado. Eso ultimo es la pista. Cada local vive en una pagina hecha a mano, y eso es exactamente el tipo de trabajo que un equipo chico deja de poder sostener cuando el proximo bar esta en Medellin y el siguiente en Cartagena.
+      </p>
+      <p class="only-en">
+        Tikipal has about a dozen bars in Bogota, from Salvador Rooftop to Plaza MX and El Candelario. The brand is clear, the Asobares seal is in the footer, and every venue page was put together by hand. That last part is the tell. Each venue lives on a page built by hand, and that is exactly the kind of work a small team cannot sustain when the next bar is in Medellin and the one after that is in Cartagena.
+      </p>
+    </div>
+
+    <h3 class="sub-title">
+      <span class="only-es">Como pensamos el stack</span>
+      <span class="only-en">How we read the stack</span>
+    </h3>
+    <div class="prose">
+      <p class="only-es">
+        Nosotros pensamos en el stack de un producto como el tuyo en tres capas. Cerca del 60% del trabajo son bases de datos y codigo tradicional: ventas, QRs, pasarelas de pago, reportes. El 30% son reglas claras: politicas de cover, limites de aforo, comisiones por evento. El 10% es IA de verdad: clasificar mensajes de WhatsApp los viernes a la 1 AM, redactar un brief semanal por local, proponer copys de pagina de bar nuevo. La mayoria de equipos quema plata metiendo modelos grandes en los primeros dos bloques, donde Postgres rinde mas. La conversacion util no es "usa IA en todo", sino donde conviene meterla y donde no.
+      </p>
+      <p class="only-en">
+        We read a stack like yours in three layers. Roughly 60% of the work is databases and traditional code: sales, QR codes, payment rails, reports. 30% is clear rules: cover policies, capacity limits, commission per event. 10% is real AI work: sorting WhatsApp messages on Friday at 1 AM, drafting a weekly brief per venue, proposing copy for a new bar page. Most teams burn money putting large models on the first two layers, where Postgres earns its keep. The useful conversation is where AI fits, and where it does not.
+      </p>
+    </div>
+
+    <div class="layers" aria-hidden="true">
+      <div class="layer layer-60">
+        <span class="layer-pct">60%</span>
+        <span class="layer-label-es only-es">Postgres y codigo</span>
+        <span class="layer-label-en only-en">Postgres and code</span>
+      </div>
+      <div class="layer layer-30">
+        <span class="layer-pct">30%</span>
+        <span class="layer-label-es only-es">Reglas claras</span>
+        <span class="layer-label-en only-en">Clear rules</span>
+      </div>
+      <div class="layer layer-10">
+        <span class="layer-pct">10%</span>
+        <span class="layer-label-es only-es">IA de verdad</span>
+        <span class="layer-label-en only-en">Real AI</span>
+      </div>
+    </div>
+
+    <h3 class="sub-title">
+      <span class="only-es">El caso cercano</span>
+      <span class="only-en">The close case</span>
+    </h3>
+    <div class="prose">
+      <p class="only-es">
+        Un cliente de Eduba con un perfil parecido: Simple Lyfe Stays, una operacion de 46 propiedades de alquiler corto. Mismo patron: multi-unidad, mucha operacion diaria, fundador-CEO. Les armamos una capa de orquestacion sobre su stack actual (no un reemplazo), con plays operativos documentados y automatizaciones puntuales donde pagaban solas. Dos propuestas escalonadas, sprint de alcance y sprint de entrega. El patron de propuesta es el mismo. El tamano se ajusta a tu etapa.
+      </p>
+      <p class="only-en">
+        An Eduba client with a similar profile: Simple Lyfe Stays, a 46-property short-term rental operator. Same pattern: multi-unit, ops-heavy, founder-CEO. We built an orchestration layer on top of their existing stack (not a replacement), with documented operational plays and specific automations where they paid for themselves. Two tiered proposals, scoped sprint and delivery sprint. Proposal pattern is the same. Size fits your stage.
+      </p>
+    </div>
+
+    <h3 class="sub-title">
+      <span class="only-es">El paper</span>
+      <span class="only-en">The paper</span>
+    </h3>
+    <div class="prose">
+      <p class="only-es">
+        Jake Van Clief, fundador de Eduba, publico la Interpretable Context Methodology (estructura de carpetas como arquitectura de agentes) en ACM TiiS. Ese marco le sirve a Tikipal porque cada local tiene su propio contexto: horario, carta, puerta, VIPs. Antes de poner un agente encima, ese contexto se estructura. <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">Repositorio ICM</a>.
+      </p>
+      <p class="only-en">
+        Jake Van Clief, founder of Eduba, published the Interpretable Context Methodology (folder structure as agent architecture) in ACM TiiS. The frame is useful for Tikipal because each venue has its own context: hours, menu, door policy, VIPs. Before an agent sits on top, that context gets structured. <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">ICM repository</a>.
+      </p>
+    </div>
+
+    <h3 class="sub-title">
+      <span class="only-es">Credibilidad</span>
+      <span class="only-en">Credibility</span>
+    </h3>
+    <div class="prose">
+      <p class="only-es">
+        Jake y Matt levantaron una comunidad online a 22,000 miembros en cinco semanas. Eduba ha entrenado a mas de 1,500 personas en empresas desde mayo de 2025, y capacito a 40 ejecutivos en <strong>KPMG UK, una de las Big Four</strong>. Eduba tambien tiene partnership con <strong>NLP Logix, en machine learning desde 2011 y con mas de 150 data scientists</strong>, para trabajo que cae por debajo de la capa de orquestacion.
+      </p>
+      <p class="only-en">
+        Jake and Matt grew an online community to 22,000 members in five weeks. Eduba has trained 1,500+ people across enterprise engagements since May 2025, and 40 executives at <strong>KPMG UK, one of the Big Four</strong>. Eduba also partners with <strong>NLP Logix, in machine learning since 2011 and running over 150 data scientists</strong>, for work that sits below the orchestration layer.
+      </p>
+      <p class="only-es">
+        Para compradores sensibles a gobernanza de IA, Eduba desarrolla la <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">Ethics Engine</a>, una herramienta psicometrica para evaluar patrones ideologicos y morales en LLMs. <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">Repositorio AuditEngine</a>.
+      </p>
+      <p class="only-en">
+        For AI governance-sensitive buyers, Eduba maintains the <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">Ethics Engine</a>, a psychometric assessment tool for evaluating ideological and moral patterns in LLMs. <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">AuditEngine repository</a>.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" aria-labelledby="cta-title">
+  <div class="cta-inner">
+    <div class="cta-card">
+      <h2 id="cta-title" class="cta-title">
+        <span class="only-es">30 minutos con Matt</span>
+        <span class="only-en">30 minutes with Matt</span>
+      </h2>
+      <p class="cta-body">
+        <span class="only-es">Matt Creamer, CRO de Eduba, esta en el stand SS54. Trae un workflow que odias. Salimos con una hipotesis concreta o con nada, no vendemos relleno.</span>
+        <span class="only-en">Matt Creamer, CRO at Eduba, is at booth SS54. Bring one workflow you hate. We leave with a concrete hypothesis or with nothing, no filler.</span>
+      </p>
+      <a class="cta-btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+        <span class="only-es">Agenda 30 minutos</span>
+        <span class="only-en">Book 30 minutes</span>
+        <span class="cta-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <p class="cta-note">
+        <span class="only-es">O WhatsApp a Matt en el stand. Hablamos espanol o ingles, da lo mismo.</span>
+        <span class="only-en">Or grab Matt at the booth. We work in Spanish or English.</span>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="foot-left">
+      <img src="logo.svg" alt="Tikipal" class="foot-logo" />
+      <p class="foot-tag">
+        <span class="only-es">Descubre las mejores fiestas de la ciudad.</span>
+        <span class="only-en">Descubre las mejores fiestas de la ciudad.</span>
+      </p>
+    </div>
+    <div class="foot-right">
+      <img src="asobares-logo.svg" alt="Miembro de Asobares" class="asobares" />
+    </div>
+  </div>
+  <div class="site-footer-bottom">
+    <p class="prep-line">
+      <span class="only-es">Preparado por Eduba. <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></span>
+      <span class="only-en">Prepared by Eduba. <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></span>
+    </p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var buttons = document.querySelectorAll('.lang-toggle a[data-lang]');
+    function setLang(lang) {
+      root.setAttribute('lang', lang);
+      buttons.forEach(function (btn) {
+        var active = btn.getAttribute('data-lang') === lang;
+        btn.classList.toggle('is-active', active);
+        if (active) {
+          btn.setAttribute('aria-current', 'true');
+        } else {
+          btn.removeAttribute('aria-current');
+        }
+      });
+    }
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        setLang(btn.getAttribute('data-lang'));
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
